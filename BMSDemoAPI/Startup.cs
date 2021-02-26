@@ -16,9 +16,12 @@ namespace BMSDemoAPI
 {
     public class Startup
     {
+        public string IVersion { get; set; }
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            IVersion = "V1";
         }
 
         public IConfiguration Configuration { get; }
@@ -29,7 +32,7 @@ namespace BMSDemoAPI
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "BMSDemoAPI", Version = "v1" });
+                c.SwaggerDoc(IVersion, new OpenApiInfo { Title = "BMSDemoAPI", Version = IVersion });
             });
         }
 
@@ -40,7 +43,7 @@ namespace BMSDemoAPI
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BMSDemoAPI v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/"+ IVersion + "/swagger.json", "BMSDemoAPI "+ IVersion + ""));
             }
 
             app.UseHttpsRedirection();
