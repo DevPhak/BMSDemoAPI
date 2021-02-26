@@ -10,41 +10,35 @@ namespace BMSDemoAPI.Controllers.V1.Autentication
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AutenController : ControllerBase
+    public class AuthenticationController : ControllerBase
     {
-        // GET: api/<AutenController>
+        // GET: api/<AuthenticationController>
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/<AutenController>/5
-
+        // GET api/<AuthenticationController>/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
-
-            return "";
+            return "Response you're parameter is: " + id + "";
         }
 
-        // POST api/<AutenController>
+        // POST api/<AuthenticationController>
         [HttpPost]
         public void Post([FromBody] string value)
         {
         }
 
-        // PUT api/<AutenController>/5
+        // PUT api/<AuthenticationController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
-
-
-
-
         }
 
-        // DELETE api/<AutenController>/5
+        // DELETE api/<AuthenticationController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
