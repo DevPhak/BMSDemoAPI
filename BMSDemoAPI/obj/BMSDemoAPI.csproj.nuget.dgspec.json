@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Web App\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj": {}
+    "D:\\WebApp\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj": {}
   },
   "projects": {
-    "D:\\Web App\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj": {
+    "D:\\WebApp\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Web App\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj",
+        "projectUniqueName": "D:\\WebApp\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj",
         "projectName": "BMSDemoAPI",
-        "projectPath": "D:\\Web App\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj",
+        "projectPath": "D:\\WebApp\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj",
         "packagesPath": "C:\\Users\\ITD-PHAK\\.nuget\\packages\\",
-        "outputPath": "D:\\Web App\\BMSDemoApp\\BMSDemoAPI\\obj\\",
+        "outputPath": "D:\\WebApp\\BMSDemoApp\\BMSDemoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ITD-PHAK\\AppData\\Roaming\\NuGet\\NuGet.Config",

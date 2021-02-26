@@ -27,6 +27,8 @@ namespace BMSDemoAPI
         public void ConfigureServices(IServiceCollection services)
         {
 
+            //Test Connection
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
