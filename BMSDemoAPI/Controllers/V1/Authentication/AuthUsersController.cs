@@ -47,15 +47,5 @@ namespace BMSDemoAPI.Controllers.V1.Authentication
             }
             return new NotFoundObjectResult(new JsonResult("Invalid API Key"));
         }
-
-        // POST api/<controller>
-        [HttpPost]
-        [Route("PostLogUsers")]
-        public async Task<IActionResult> PostLogUsers([FromBody]LogUser Models)
-        {
-
-
-
-        }
     }
 }
