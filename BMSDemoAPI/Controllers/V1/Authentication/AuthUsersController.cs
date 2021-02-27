@@ -17,33 +17,35 @@ namespace BMSDemoAPI.Controllers.V1.Authentication
     {
         private readonly BMSDemoAPIDBContext _context;
 
+        private string AuthAPIKey { get; set; }
+
         public AuthUsersController(BMSDemoAPIDBContext context)
         {
             _context = context;
+            AuthAPIKey = "A";
         }
 
         [HttpGet("{APIKey}/{UserName}/{UserPassword}")]
-        public ActionResult<Users> GetUserDetails(string APIKey, string UserName, string UserPassword)
+        public async Task<ActionResult<Users>> GetUserDetailed(string APIKey, string UserName, string UserPassword)
         {
-            if (APIKey != "ABC" || APIKey == string.Empty || APIKey == null)
+            if (APIKey == AuthAPIKey)
             {
-                return NotFound("API Key Not Found.");
+                var result = await _context.Users.FindAsync(UserName, UserPassword);
+
+                if (result != null)
+                {
+                    if (result.IsActive != "Y")
+                    {
+                        return new NotFoundObjectResult(new JsonResult("สถานะผู้ใช้งานถูกระงับชั่วคราว"));
+                    }
+                }
+                else
+                {
+                    return new NotFoundObjectResult(new JsonResult("ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง"));
+                }
+                return new OkObjectResult(new JsonResult(1));
             }
-
-            var res = _context.Users.Find(UserName, UserPassword);
-
-            if (res == null)
-            {
-                return NotFound();
-
-            }
-
-            if (res.IsActive == "Y")
-            {
-                return Ok(res.IsActive);
-            }
-
-            return NotFound("N");
+            return new NotFoundObjectResult(new JsonResult("Invalid API Key"));
         }
     }
 }

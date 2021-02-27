@@ -126,3 +126,4 @@ D:\WebApp\BMSDemoApp\BMSDemoAPI\obj\Debug\net5.0\ref\BMSDemoAPI.dll
 D:\WebApp\BMSDemoApp\BMSDemoAPI\obj\Debug\net5.0\BMSDemoAPI.pdb
 D:\WebApp\BMSDemoApp\BMSDemoAPI\obj\Debug\net5.0\BMSDemoAPI.genruntimeconfig.cache
 D:\WebApp\BMSDemoApp\BMSDemoAPI\obj\Debug\net5.0\BMSDemoAPI.csprojAssemblyReference.cache
+D:\WebApp\BMSDemoApp\BMSDemoAPI\bin\Debug\net5.0\Newtonsoft.Json.dll

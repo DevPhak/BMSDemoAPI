@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using BMSDemoAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Dapper;
+using Newtonsoft.Json;
 
 namespace BMSDemoAPI
 {
@@ -31,9 +32,12 @@ namespace BMSDemoAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<BMSDemoAPIDBContext>
-                (options => options.UseSqlServer(Configuration.GetConnectionString("MainConnection")));
+            (options => options.UseSqlServer(Configuration.GetConnectionString("MainConnection")));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
+
+            services.AddControllers().AddJsonOptions(options => { options.JsonSerializerOptions.IgnoreNullValues = true;
+            options.JsonSerializerOptions.Converters.Add(new System.Text.Json.Serialization.JsonStringEnumConverter()); });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -51,6 +55,10 @@ namespace BMSDemoAPI
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BMSDemoAPI v1"));
+            }
+            else
+            {
+                app.UseHsts();
             }
 
             app.UseHttpsRedirection();
