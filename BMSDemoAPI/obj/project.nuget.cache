@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "k/C1es45thAa+Ry6FR0FV2AF3DrQfXRCRjaNAKz4fAQZnSKKC11r8Q1Tqa4wknTd01Lm+6Exco89dbnsJTxL3w==",
+  "dgSpecHash": "ISLV91rxpV2tItrzqjbNPupLZy+AnA4R+SU3afHIayDnZB15MQTzLcRt1hHPWdoqLcjlQfLw8uaoMFM9w+NYmw==",
   "success": true,
   "projectFilePath": "D:\\WebApp\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj",
   "expectedPackageFiles": [
@@ -90,10 +90,10 @@
     "C:\\Users\\ITD-PHAK\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\ITD-PHAK\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\ITD-PHAK\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
-    "C:\\Users\\ITD-PHAK\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\ITD-PHAK\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\ITD-PHAK\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\ITD-PHAK\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\ITD-PHAK\\.nuget\\packages\\swashbuckle.aspnetcore\\6.0.7\\swashbuckle.aspnetcore.6.0.7.nupkg.sha512",
+    "C:\\Users\\ITD-PHAK\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.0.7\\swashbuckle.aspnetcore.swagger.6.0.7.nupkg.sha512",
+    "C:\\Users\\ITD-PHAK\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.0.7\\swashbuckle.aspnetcore.swaggergen.6.0.7.nupkg.sha512",
+    "C:\\Users\\ITD-PHAK\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.0.7\\swashbuckle.aspnetcore.swaggerui.6.0.7.nupkg.sha512",
     "C:\\Users\\ITD-PHAK\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\ITD-PHAK\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\ITD-PHAK\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
