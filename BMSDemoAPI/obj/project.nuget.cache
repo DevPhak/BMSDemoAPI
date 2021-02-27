@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Nn3Qv2mcqnMnaaqX4Vupv6d+Zz5HRI0cNDFuzNvyl/FqXxrJtIMZ4txqxr6HhQgZ75tC75tPiqO1OqMNQQfZ8g==",
+  "dgSpecHash": "f/J4GSk69xgIg6QbP4i+QvfnUDa9KgvSsqMJ6tbQWNZG+bKrHEy0Opkg0NGxQhh/UPrsKjOv7aLnyT+XlP8AAg==",
   "success": true,
   "projectFilePath": "D:\\WebApp\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj",
   "expectedPackageFiles": [
@@ -60,6 +60,7 @@
     "C:\\Users\\ITD-PHAK\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\ITD-PHAK\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ITD-PHAK\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ITD-PHAK\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\ITD-PHAK\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\ITD-PHAK\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\ITD-PHAK\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
