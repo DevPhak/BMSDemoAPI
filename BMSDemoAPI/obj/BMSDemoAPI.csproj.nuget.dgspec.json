@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WebApp\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj": {}
+    "D:\\source\\repos\\BMSDemoAPI\\BMSDemoAPI\\BMSDemoAPI.csproj": {}
   },
   "projects": {
-    "D:\\WebApp\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj": {
+    "D:\\source\\repos\\BMSDemoAPI\\BMSDemoAPI\\BMSDemoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebApp\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj",
+        "projectUniqueName": "D:\\source\\repos\\BMSDemoAPI\\BMSDemoAPI\\BMSDemoAPI.csproj",
         "projectName": "BMSDemoAPI",
-        "projectPath": "D:\\WebApp\\BMSDemoApp\\BMSDemoAPI\\BMSDemoAPI.csproj",
-        "packagesPath": "C:\\Users\\ITD-PHAK\\.nuget\\packages\\",
-        "outputPath": "D:\\WebApp\\BMSDemoApp\\BMSDemoAPI\\obj\\",
+        "projectPath": "D:\\source\\repos\\BMSDemoAPI\\BMSDemoAPI\\BMSDemoAPI.csproj",
+        "packagesPath": "C:\\Users\\ITD-KITTi\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\BMSDemoAPI\\BMSDemoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ITD-PHAK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ITD-KITTi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
